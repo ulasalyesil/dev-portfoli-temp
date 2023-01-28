@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.project {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    width: 40rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: #FAFAFA;
+    border: 1px solid #EAEEF0;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 23px rgba(30, 30, 30, 0.05);
+    margin: 0;
+    box-shadow: 0px 4px 8px rgba(30, 30, 30, 0.0), inset 2px 2px 7px rgba(255, 255, 255, 0.0);
+    transition: 0.3s;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #6E6E6E;
+}
+
+.project:hover{
+    box-shadow: 0px 4px 8px rgba(30, 30, 30, 0.1), inset 2px 2px 7px rgba(255, 255, 255, 0.25);
+}
