@@ -1,17 +1,24 @@
 import "./css/button.css"
 
-function ButtonPrimary({
+
+
+function Button({
     label,
-    target
+    target,
+    type
 }) {
+
+    const handleClick = () => {
+        window.location.href=target;
+    }
 
     return (
         <div>
-        <button className="btn-primary" href={target}>{label}</button>
+        <button className={`${type}`} onClick={handleClick}>{label}</button>
         </div>
     );
 }
 
 
 
-export default ButtonPrimary;
+export default Button;

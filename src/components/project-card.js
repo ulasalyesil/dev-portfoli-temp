@@ -1,4 +1,4 @@
-import ButtonSecondary from "./btn-secondary.js";
+import Button from "./btn-primary";
 import "./css/projects.css";
 
 function Project({thumbnail, thumb_alt, title, description}) {
@@ -8,7 +8,7 @@ function Project({thumbnail, thumb_alt, title, description}) {
                 <div className="copy">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <ButtonSecondary label="View Project"/>
+                <Button label="View Project" type="btn-secondary"/>
                 </div>
         </div>
         );

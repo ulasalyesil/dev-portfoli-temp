@@ -1,5 +1,5 @@
 // css
-import "./app.css";
+import "./App.css";
 
 // components
 import Project from "./components/project-card";
@@ -26,11 +26,15 @@ function App() {
 
     <section className="section">
     <h2>Blog Posts</h2>
+
+    
     <BlogPost title="What is Version Control System?" description="May 30, 2020"/>
     <BlogPost title="What is Git, Github?" description="June 20, 2020"/>
     <BlogPost title="Test Article" description="September 28, 2020"/>
     <div className="link-btn"><a>See More</a></div>
     </section>
+
+    <input type="text"/>
     
     </div>
   );

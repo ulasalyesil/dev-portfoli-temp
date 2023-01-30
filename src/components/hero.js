@@ -1,4 +1,4 @@
-import ButtonPrimary from "./btn-primary";
+import Button from "./btn-primary";
 import "./css/hero.css";
 
 function Hero() {
@@ -9,7 +9,7 @@ function Hero() {
             <img></img>
             <h1>Hi, I'm <span className="name">John Doe</span></h1>
             </div>
-            <a href="#" className="link">About</a>
+            <a href="https://youtube.com" className="link">About</a>
         </div>
 
         <div className="bio">
@@ -17,7 +17,7 @@ function Hero() {
                 I am interested in Frontend Development using React, Tailwind, NextJS, Gatsby. Moreover, I know git, jira, netlify environments.</p>
         </div>
         <div className="actions">
-            <ButtonPrimary label={"Get in touch"} target={"#"} />
+            <Button label={"Get in touch"} target={"https://youtube.com"} type={"btn-primary"} />
         </div>
         
     </div>
